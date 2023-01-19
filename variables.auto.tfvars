@@ -1,0 +1,12 @@
+vpc-id = "10.0.0.0/16" 
+subnet-cidr =["10.0.0.0/24" ,"10.0.1.0/24"]
+subnet-name = ["terra-subnetpub" , "terra-subnetpriv"]
+igw_name = "terraform-gateway"
+route-cidr = "0.0.0.0/0"
+routename = "terratablepub"
+natgaeway-name = "natgaeway"
+route2-name = "route2"
+security-name = "group_security"
+ami-id = "ami-0b5eea76982371e91"
+ec2-pub = "terra-ec2-pub"
+ec2-priv = "terra-ec2-pri"
